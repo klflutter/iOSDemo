@@ -13,9 +13,12 @@
 		CBB6DB7F2255A42A00B8C197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB6DB7E2255A42A00B8C197 /* Assets.xcassets */; };
 		CBB6DB822255A42A00B8C197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB6DB802255A42A00B8C197 /* LaunchScreen.storyboard */; };
 		CBB6DB852255A42A00B8C197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB6DB842255A42A00B8C197 /* main.m */; };
+		E3AADC82F1791C1BC28AD7C7 /* libPods-iOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 224D0FA4DA5EA94C3AD7E9F7 /* libPods-iOSDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17A50545F47A52684F00DD0D /* Pods-iOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		224D0FA4DA5EA94C3AD7E9F7 /* libPods-iOSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB6DB722255A42A00B8C197 /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB6DB752255A42A00B8C197 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBB6DB762255A42A00B8C197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		CBB6DB812255A42A00B8C197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBB6DB832255A42A00B8C197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB6DB842255A42A00B8C197 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E157C960A29602642F0B5A0B /* Pods-iOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.release.xcconfig"; path = "Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3AADC82F1791C1BC28AD7C7 /* libPods-iOSDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040CE83DF6A4BE18B0C43AFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				224D0FA4DA5EA94C3AD7E9F7 /* libPods-iOSDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C266F97DD0035D7AD8C6486 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17A50545F47A52684F00DD0D /* Pods-iOSDemo.debug.xcconfig */,
+				E157C960A29602642F0B5A0B /* Pods-iOSDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CBB6DB692255A42A00B8C197 = {
 			isa = PBXGroup;
 			children = (
 				CBB6DB742255A42A00B8C197 /* iOSDemo */,
 				CBB6DB732255A42A00B8C197 /* Products */,
+				6C266F97DD0035D7AD8C6486 /* Pods */,
+				040CE83DF6A4BE18B0C43AFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +103,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBB6DB882255A42A00B8C197 /* Build configuration list for PBXNativeTarget "iOSDemo" */;
 			buildPhases = (
+				F8BD7D4D2A98761E7CC60049 /* [CP] Check Pods Manifest.lock */,
 				CBB6DB6E2255A42A00B8C197 /* Sources */,
 				CBB6DB6F2255A42A00B8C197 /* Frameworks */,
 				CBB6DB702255A42A00B8C197 /* Resources */,
@@ -135,6 +161,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F8BD7D4D2A98761E7CC60049 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CBB6DB6E2255A42A00B8C197 /* Sources */ = {
@@ -283,11 +334,13 @@
 		};
 		CBB6DB892255A42A00B8C197 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A50545F47A52684F00DD0D /* Pods-iOSDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66X9PJVZ92;
 				INFOPLIST_FILE = iOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +353,13 @@
 		};
 		CBB6DB8A2255A42A00B8C197 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E157C960A29602642F0B5A0B /* Pods-iOSDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66X9PJVZ92;
 				INFOPLIST_FILE = iOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
