@@ -6,12 +6,9 @@
 //  Copyright © 2019 Koolearn. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Flutter/Flutter.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface AppDelegate : FlutterAppDelegate
 
 @end
 

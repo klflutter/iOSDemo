@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Flutter/FlutterViewController.h>
 
 @interface ViewController ()
 
@@ -19,5 +20,8 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    FlutterViewController* flutterViewController = [[FlutterViewController alloc] initWithProject:nil nibName:nil bundle:nil];
+    [self presentViewController:flutterViewController animated:YES completion:nil];
+}
 @end
