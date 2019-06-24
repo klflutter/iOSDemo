@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <Flutter/FlutterViewController.h>
+#import "HHFlutterViewController.h"
 
 @interface ViewController ()
 
@@ -21,7 +21,8 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    FlutterViewController* flutterViewController = [[FlutterViewController alloc] initWithProject:nil nibName:nil bundle:nil];
-    [self presentViewController:flutterViewController animated:YES completion:nil];
+    HHFlutterViewController* flutterViewController = [[HHFlutterViewController alloc] initWithProject:nil nibName:nil bundle:nil];
+    [self.navigationController pushViewController:flutterViewController animated:YES];
 }
+
 @end

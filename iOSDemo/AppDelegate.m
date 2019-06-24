@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-//#import <FlutterModule/GeneratedPluginRegistrant.h>
 #import <FlutterPluginRegistrant/GeneratedPluginRegistrant.h>
 
 @interface AppDelegate ()

@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0FB9D1B38DDEB48402732770 /* Pods_iOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8908696969C4144B26496F7D /* Pods_iOSDemo.framework */; };
+		CB56D8E822C0BCF300C99BFD /* HHFlutterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB56D8E722C0BCF300C99BFD /* HHFlutterViewController.m */; };
 		CBB6DB772255A42A00B8C197 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB6DB762255A42A00B8C197 /* AppDelegate.m */; };
 		CBB6DB7A2255A42A00B8C197 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB6DB792255A42A00B8C197 /* ViewController.m */; };
 		CBB6DB7D2255A42A00B8C197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB6DB7B2255A42A00B8C197 /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* Begin PBXFileReference section */
 		17A50545F47A52684F00DD0D /* Pods-iOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8908696969C4144B26496F7D /* Pods_iOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB56D8E622C0BCF300C99BFD /* HHFlutterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHFlutterViewController.h; sourceTree = "<group>"; };
+		CB56D8E722C0BCF300C99BFD /* HHFlutterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHFlutterViewController.m; sourceTree = "<group>"; };
 		CBB6DB722255A42A00B8C197 /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB6DB752255A42A00B8C197 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBB6DB762255A42A00B8C197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				CBB6DB762255A42A00B8C197 /* AppDelegate.m */,
 				CBB6DB782255A42A00B8C197 /* ViewController.h */,
 				CBB6DB792255A42A00B8C197 /* ViewController.m */,
+				CB56D8E622C0BCF300C99BFD /* HHFlutterViewController.h */,
+				CB56D8E722C0BCF300C99BFD /* HHFlutterViewController.m */,
 				CBB6DB7B2255A42A00B8C197 /* Main.storyboard */,
 				CBB6DB7E2255A42A00B8C197 /* Assets.xcassets */,
 				CBB6DB802255A42A00B8C197 /* LaunchScreen.storyboard */,
@@ -210,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB6DB7A2255A42A00B8C197 /* ViewController.m in Sources */,
+				CB56D8E822C0BCF300C99BFD /* HHFlutterViewController.m in Sources */,
 				CBB6DB852255A42A00B8C197 /* main.m in Sources */,
 				CBB6DB772255A42A00B8C197 /* AppDelegate.m in Sources */,
 			);
