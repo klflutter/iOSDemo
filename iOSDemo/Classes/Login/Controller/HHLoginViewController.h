@@ -1,8 +1,8 @@
 //
-//  ViewController.h
+//  HHLoginViewController.h
 //  iOSDemo
 //
-//  Created by wanhong cai on 2019/7/11.
+//  Created by wanhong cai on 2019/7/12.
 //  Copyright © 2019 Koolearn. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ViewController : UIViewController
+@interface HHLoginViewController : UIViewController
 
 @end
 

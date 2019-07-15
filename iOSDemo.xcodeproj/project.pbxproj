@@ -8,9 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0FB9D1B38DDEB48402732770 /* Pods_iOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8908696969C4144B26496F7D /* Pods_iOSDemo.framework */; };
-		CB56D8E822C0BCF300C99BFD /* HHFlutterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB56D8E722C0BCF300C99BFD /* HHFlutterViewController.m */; };
+		CB69CA2C22D715BA00066380 /* DemoRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69CA2B22D715BA00066380 /* DemoRouter.m */; };
+		CB69CA3022D7162A00066380 /* UIViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69CA2E22D7162A00066380 /* UIViewControllerDemo.m */; };
+		CB69CA3122D7162A00066380 /* UIViewControllerDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB69CA2F22D7162A00066380 /* UIViewControllerDemo.xib */; };
+		CB69CA3422D7295000066380 /* HHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69CA3322D7295000066380 /* HHTabBarController.m */; };
+		CB69CA3722D729E900066380 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69CA3622D729E900066380 /* ViewController.m */; };
+		CB69CA3A22D73EA700066380 /* HHFlutterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69CA3922D73EA700066380 /* HHFlutterViewController.m */; };
+		CB69CA4B22D831B000066380 /* HHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69CA4922D831B000066380 /* HHHomeViewController.m */; };
+		CB69CA4C22D831B000066380 /* HHHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB69CA4A22D831B000066380 /* HHHomeViewController.xib */; };
+		CB69CA5722D8322C00066380 /* HHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69CA5522D8322C00066380 /* HHLoginViewController.m */; };
+		CB69CA5822D8322C00066380 /* HHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB69CA5622D8322C00066380 /* HHLoginViewController.xib */; };
+		CB69CA5C22D8350900066380 /* UINavigationController+HHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69CA5B22D8350900066380 /* UINavigationController+HHExtension.m */; };
+		CB69CA6022D8352E00066380 /* HHHookTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69CA5E22D8352E00066380 /* HHHookTool.m */; };
+		CB69CA6322D871DA00066380 /* HHMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69CA6222D871DA00066380 /* HHMineViewController.m */; };
 		CBB6DB772255A42A00B8C197 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB6DB762255A42A00B8C197 /* AppDelegate.m */; };
-		CBB6DB7A2255A42A00B8C197 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB6DB792255A42A00B8C197 /* ViewController.m */; };
 		CBB6DB7D2255A42A00B8C197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB6DB7B2255A42A00B8C197 /* Main.storyboard */; };
 		CBB6DB7F2255A42A00B8C197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB6DB7E2255A42A00B8C197 /* Assets.xcassets */; };
 		CBB6DB822255A42A00B8C197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB6DB802255A42A00B8C197 /* LaunchScreen.storyboard */; };
@@ -20,13 +31,32 @@
 /* Begin PBXFileReference section */
 		17A50545F47A52684F00DD0D /* Pods-iOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8908696969C4144B26496F7D /* Pods_iOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB56D8E622C0BCF300C99BFD /* HHFlutterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHFlutterViewController.h; sourceTree = "<group>"; };
-		CB56D8E722C0BCF300C99BFD /* HHFlutterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHFlutterViewController.m; sourceTree = "<group>"; };
+		CB69CA2A22D715BA00066380 /* DemoRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoRouter.h; sourceTree = "<group>"; };
+		CB69CA2B22D715BA00066380 /* DemoRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoRouter.m; sourceTree = "<group>"; };
+		CB69CA2D22D7162A00066380 /* UIViewControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerDemo.h; sourceTree = "<group>"; };
+		CB69CA2E22D7162A00066380 /* UIViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerDemo.m; sourceTree = "<group>"; };
+		CB69CA2F22D7162A00066380 /* UIViewControllerDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIViewControllerDemo.xib; sourceTree = "<group>"; };
+		CB69CA3222D7295000066380 /* HHTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHTabBarController.h; sourceTree = "<group>"; };
+		CB69CA3322D7295000066380 /* HHTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHTabBarController.m; sourceTree = "<group>"; };
+		CB69CA3522D729E900066380 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB69CA3622D729E900066380 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB69CA3822D73EA700066380 /* HHFlutterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHFlutterViewController.h; sourceTree = "<group>"; };
+		CB69CA3922D73EA700066380 /* HHFlutterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHFlutterViewController.m; sourceTree = "<group>"; };
+		CB69CA4822D831B000066380 /* HHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHHomeViewController.h; sourceTree = "<group>"; };
+		CB69CA4922D831B000066380 /* HHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHHomeViewController.m; sourceTree = "<group>"; };
+		CB69CA4A22D831B000066380 /* HHHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHHomeViewController.xib; sourceTree = "<group>"; };
+		CB69CA5422D8322C00066380 /* HHLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHLoginViewController.h; sourceTree = "<group>"; };
+		CB69CA5522D8322C00066380 /* HHLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHLoginViewController.m; sourceTree = "<group>"; };
+		CB69CA5622D8322C00066380 /* HHLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHLoginViewController.xib; sourceTree = "<group>"; };
+		CB69CA5A22D8350900066380 /* UINavigationController+HHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HHExtension.h"; sourceTree = "<group>"; };
+		CB69CA5B22D8350900066380 /* UINavigationController+HHExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HHExtension.m"; sourceTree = "<group>"; };
+		CB69CA5E22D8352E00066380 /* HHHookTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHookTool.m; sourceTree = "<group>"; };
+		CB69CA5F22D8352E00066380 /* HHHookTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHookTool.h; sourceTree = "<group>"; };
+		CB69CA6122D871DA00066380 /* HHMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHMineViewController.h; sourceTree = "<group>"; };
+		CB69CA6222D871DA00066380 /* HHMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHMineViewController.m; sourceTree = "<group>"; };
 		CBB6DB722255A42A00B8C197 /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB6DB752255A42A00B8C197 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBB6DB762255A42A00B8C197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CBB6DB782255A42A00B8C197 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CBB6DB792255A42A00B8C197 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CBB6DB7C2255A42A00B8C197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBB6DB7E2255A42A00B8C197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB6DB812255A42A00B8C197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,6 +94,108 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CB69CA3B22D82DDE00066380 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB69CA5D22D8352E00066380 /* Swizzling */,
+				CB69CA5922D834E500066380 /* Aop */,
+				CB69CA5222D8321900066380 /* Login */,
+				CB69CA4622D8308600066380 /* Main */,
+				CB69CA3D22D82DEE00066380 /* Mine */,
+				CB69CA3C22D82DE400066380 /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CB69CA3C22D82DE400066380 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CB69CA4222D82EE000066380 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CB69CA3D22D82DEE00066380 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				CB69CA3E22D82E1300066380 /* Controller */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		CB69CA3E22D82E1300066380 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB69CA6122D871DA00066380 /* HHMineViewController.h */,
+				CB69CA6222D871DA00066380 /* HHMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB69CA4222D82EE000066380 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB69CA4822D831B000066380 /* HHHomeViewController.h */,
+				CB69CA4922D831B000066380 /* HHHomeViewController.m */,
+				CB69CA4A22D831B000066380 /* HHHomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB69CA4622D8308600066380 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CB69CA4722D8309300066380 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CB69CA4722D8309300066380 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB69CA3222D7295000066380 /* HHTabBarController.h */,
+				CB69CA3322D7295000066380 /* HHTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB69CA5222D8321900066380 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CB69CA5322D8321E00066380 /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CB69CA5322D8321E00066380 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB69CA5422D8322C00066380 /* HHLoginViewController.h */,
+				CB69CA5522D8322C00066380 /* HHLoginViewController.m */,
+				CB69CA5622D8322C00066380 /* HHLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB69CA5922D834E500066380 /* Aop */ = {
+			isa = PBXGroup;
+			children = (
+				CB69CA5A22D8350900066380 /* UINavigationController+HHExtension.h */,
+				CB69CA5B22D8350900066380 /* UINavigationController+HHExtension.m */,
+			);
+			path = Aop;
+			sourceTree = "<group>";
+		};
+		CB69CA5D22D8352E00066380 /* Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				CB69CA5F22D8352E00066380 /* HHHookTool.h */,
+				CB69CA5E22D8352E00066380 /* HHHookTool.m */,
+			);
+			name = Swizzling;
+			path = ../../../../guoji111/iOS/CET/Classes/UtilitiesLayer/Swizzling;
+			sourceTree = "<group>";
+		};
 		CBB6DB692255A42A00B8C197 = {
 			isa = PBXGroup;
 			children = (
@@ -85,17 +217,23 @@
 		CBB6DB742255A42A00B8C197 /* iOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CB69CA3B22D82DDE00066380 /* Classes */,
 				CBB6DB752255A42A00B8C197 /* AppDelegate.h */,
 				CBB6DB762255A42A00B8C197 /* AppDelegate.m */,
-				CBB6DB782255A42A00B8C197 /* ViewController.h */,
-				CBB6DB792255A42A00B8C197 /* ViewController.m */,
-				CB56D8E622C0BCF300C99BFD /* HHFlutterViewController.h */,
-				CB56D8E722C0BCF300C99BFD /* HHFlutterViewController.m */,
+				CB69CA2A22D715BA00066380 /* DemoRouter.h */,
+				CB69CA2B22D715BA00066380 /* DemoRouter.m */,
+				CB69CA2D22D7162A00066380 /* UIViewControllerDemo.h */,
+				CB69CA2E22D7162A00066380 /* UIViewControllerDemo.m */,
+				CB69CA2F22D7162A00066380 /* UIViewControllerDemo.xib */,
 				CBB6DB7B2255A42A00B8C197 /* Main.storyboard */,
 				CBB6DB7E2255A42A00B8C197 /* Assets.xcassets */,
 				CBB6DB802255A42A00B8C197 /* LaunchScreen.storyboard */,
 				CBB6DB832255A42A00B8C197 /* Info.plist */,
 				CBB6DB842255A42A00B8C197 /* main.m */,
+				CB69CA3522D729E900066380 /* ViewController.h */,
+				CB69CA3622D729E900066380 /* ViewController.m */,
+				CB69CA3822D73EA700066380 /* HHFlutterViewController.h */,
+				CB69CA3922D73EA700066380 /* HHFlutterViewController.m */,
 			);
 			path = iOSDemo;
 			sourceTree = "<group>";
@@ -111,7 +249,7 @@
 				CBB6DB6E2255A42A00B8C197 /* Sources */,
 				CBB6DB6F2255A42A00B8C197 /* Frameworks */,
 				CBB6DB702255A42A00B8C197 /* Resources */,
-				511042680B5CE8BC8CFE4374 /* [CP] Embed Pods Frameworks */,
+				067944D19D452977F73CC2D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,15 +298,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB6DB822255A42A00B8C197 /* LaunchScreen.storyboard in Resources */,
+				CB69CA4C22D831B000066380 /* HHHomeViewController.xib in Resources */,
 				CBB6DB7F2255A42A00B8C197 /* Assets.xcassets in Resources */,
 				CBB6DB7D2255A42A00B8C197 /* Main.storyboard in Resources */,
+				CB69CA5822D8322C00066380 /* HHLoginViewController.xib in Resources */,
+				CB69CA3122D7162A00066380 /* UIViewControllerDemo.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		511042680B5CE8BC8CFE4374 /* [CP] Embed Pods Frameworks */ = {
+		067944D19D452977F73CC2D9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -214,10 +355,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB6DB7A2255A42A00B8C197 /* ViewController.m in Sources */,
-				CB56D8E822C0BCF300C99BFD /* HHFlutterViewController.m in Sources */,
+				CB69CA3722D729E900066380 /* ViewController.m in Sources */,
+				CB69CA2C22D715BA00066380 /* DemoRouter.m in Sources */,
 				CBB6DB852255A42A00B8C197 /* main.m in Sources */,
+				CB69CA4B22D831B000066380 /* HHHomeViewController.m in Sources */,
+				CB69CA5722D8322C00066380 /* HHLoginViewController.m in Sources */,
+				CB69CA3022D7162A00066380 /* UIViewControllerDemo.m in Sources */,
 				CBB6DB772255A42A00B8C197 /* AppDelegate.m in Sources */,
+				CB69CA3A22D73EA700066380 /* HHFlutterViewController.m in Sources */,
+				CB69CA6022D8352E00066380 /* HHHookTool.m in Sources */,
+				CB69CA6322D871DA00066380 /* HHMineViewController.m in Sources */,
+				CB69CA3422D7295000066380 /* HHTabBarController.m in Sources */,
+				CB69CA5C22D8350900066380 /* UINavigationController+HHExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

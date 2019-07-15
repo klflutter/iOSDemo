@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HHTabBarController.h
 //  iOSDemo
 //
 //  Created by wanhong cai on 2019/7/11.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ViewController : UIViewController
+@interface HHTabBarController : UITabBarController
 
 @end
 

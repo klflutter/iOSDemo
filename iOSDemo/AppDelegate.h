@@ -6,9 +6,12 @@
 //  Copyright © 2019 Koolearn. All rights reserved.
 //
 
-#import <Flutter/Flutter.h>
+#import <UIKit/UIKit.h>
+#import <flutter_boost/FlutterBoost.h>
 
-@interface AppDelegate : FlutterAppDelegate
+@interface AppDelegate : FLBFlutterAppDelegate <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
 

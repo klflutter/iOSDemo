@@ -2,13 +2,14 @@
 //  HHFlutterViewController.m
 //  iOSDemo
 //
-//  Created by wanhong cai on 2019/6/24.
+//  Created by wanhong cai on 2019/7/11.
 //  Copyright © 2019 Koolearn. All rights reserved.
 //
 
 #import "HHFlutterViewController.h"
+#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
 
-@interface HHFlutterViewController ()
+@interface HHFlutterViewController ()<UIGestureRecognizerDelegate>
 
 @end
 
@@ -16,12 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.navigationBarHidden = YES;
-}
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    [self.navigationController.navigationBar setHidden:YES];
+    self.fd_prefersNavigationBarHidden = YES;
+    
+    if (self.navigationController) {
+        self.navigationController.interactivePopGestureRecognizer.delegate = self;
+    }
 }
 
 - (void)dealloc {
