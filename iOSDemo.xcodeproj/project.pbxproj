@@ -19,8 +19,8 @@
 		CB69CA5722D8322C00066380 /* HHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69CA5522D8322C00066380 /* HHLoginViewController.m */; };
 		CB69CA5822D8322C00066380 /* HHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB69CA5622D8322C00066380 /* HHLoginViewController.xib */; };
 		CB69CA5C22D8350900066380 /* UINavigationController+HHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69CA5B22D8350900066380 /* UINavigationController+HHExtension.m */; };
-		CB69CA6022D8352E00066380 /* HHHookTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69CA5E22D8352E00066380 /* HHHookTool.m */; };
 		CB69CA6322D871DA00066380 /* HHMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69CA6222D871DA00066380 /* HHMineViewController.m */; };
+		CB77798522DC294E00C144D9 /* HHHookTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CB77798322DC294E00C144D9 /* HHHookTool.m */; };
 		CBB6DB772255A42A00B8C197 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB6DB762255A42A00B8C197 /* AppDelegate.m */; };
 		CBB6DB7D2255A42A00B8C197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB6DB7B2255A42A00B8C197 /* Main.storyboard */; };
 		CBB6DB7F2255A42A00B8C197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB6DB7E2255A42A00B8C197 /* Assets.xcassets */; };
@@ -50,10 +50,10 @@
 		CB69CA5622D8322C00066380 /* HHLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHLoginViewController.xib; sourceTree = "<group>"; };
 		CB69CA5A22D8350900066380 /* UINavigationController+HHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HHExtension.h"; sourceTree = "<group>"; };
 		CB69CA5B22D8350900066380 /* UINavigationController+HHExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HHExtension.m"; sourceTree = "<group>"; };
-		CB69CA5E22D8352E00066380 /* HHHookTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHookTool.m; sourceTree = "<group>"; };
-		CB69CA5F22D8352E00066380 /* HHHookTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHookTool.h; sourceTree = "<group>"; };
 		CB69CA6122D871DA00066380 /* HHMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHMineViewController.h; sourceTree = "<group>"; };
 		CB69CA6222D871DA00066380 /* HHMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHMineViewController.m; sourceTree = "<group>"; };
+		CB77798322DC294E00C144D9 /* HHHookTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHookTool.m; sourceTree = "<group>"; };
+		CB77798422DC294E00C144D9 /* HHHookTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHookTool.h; sourceTree = "<group>"; };
 		CBB6DB722255A42A00B8C197 /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB6DB752255A42A00B8C197 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBB6DB762255A42A00B8C197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		CB69CA3B22D82DDE00066380 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CB69CA5D22D8352E00066380 /* Swizzling */,
+				CB77798222DC294E00C144D9 /* Swizzling */,
 				CB69CA5922D834E500066380 /* Aop */,
 				CB69CA5222D8321900066380 /* Login */,
 				CB69CA4622D8308600066380 /* Main */,
@@ -186,14 +186,13 @@
 			path = Aop;
 			sourceTree = "<group>";
 		};
-		CB69CA5D22D8352E00066380 /* Swizzling */ = {
+		CB77798222DC294E00C144D9 /* Swizzling */ = {
 			isa = PBXGroup;
 			children = (
-				CB69CA5F22D8352E00066380 /* HHHookTool.h */,
-				CB69CA5E22D8352E00066380 /* HHHookTool.m */,
+				CB77798322DC294E00C144D9 /* HHHookTool.m */,
+				CB77798422DC294E00C144D9 /* HHHookTool.h */,
 			);
-			name = Swizzling;
-			path = ../../../../guoji111/iOS/CET/Classes/UtilitiesLayer/Swizzling;
+			path = Swizzling;
 			sourceTree = "<group>";
 		};
 		CBB6DB692255A42A00B8C197 = {
@@ -363,9 +362,9 @@
 				CB69CA3022D7162A00066380 /* UIViewControllerDemo.m in Sources */,
 				CBB6DB772255A42A00B8C197 /* AppDelegate.m in Sources */,
 				CB69CA3A22D73EA700066380 /* HHFlutterViewController.m in Sources */,
-				CB69CA6022D8352E00066380 /* HHHookTool.m in Sources */,
 				CB69CA6322D871DA00066380 /* HHMineViewController.m in Sources */,
 				CB69CA3422D7295000066380 /* HHTabBarController.m in Sources */,
+				CB77798522DC294E00C144D9 /* HHHookTool.m in Sources */,
 				CB69CA5C22D8350900066380 /* UINavigationController+HHExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
